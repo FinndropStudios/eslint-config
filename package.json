@@ -1,6 +1,6 @@
 {
   "name": "@finndropstudios/eslint-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Finndrop Studios' ESLint Configuration",
   "main": "index.js",
   "scripts": {

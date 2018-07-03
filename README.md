@@ -40,7 +40,7 @@ install-peerdeps --dev @finndropstudios/eslint-config
 
 Our configuration contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
-Add `"extends": "@uandi/eslint-config"` to your .eslintrc
+Add `"extends": "@finndropstudios/eslint-config"` to your .eslintrc
 
 ### eslint-config-finndropstudios/legacy
 
