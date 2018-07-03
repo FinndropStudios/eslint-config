@@ -1,0 +1,48 @@
+{
+  "name": "@finndropstudios/eslint-config",
+  "version": "0.2.1",
+  "description": "Finndrop Studios' ESLint Configuration",
+  "main": "index.js",
+  "scripts": {
+    "prelint": "editorconfig-tools check * rules/*",
+    "lint": "eslint .",
+    "test": "npm run --silent lint",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinndropStudios/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Manuel Bachl (https://www.finndrop.de)",
+  "contributors": [
+    "Manuel Bachl (https://www.finndrop.de)"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.9.0",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/FinndropStudios/eslint-config/issues"
+  },
+  "homepage": "https://github.com/FinndropStudios/eslint-config#readme"
+}
